@@ -1,0 +1,6 @@
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\ApplicationService\bin\Debug\ApplicationService.exe.config
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\ApplicationService\bin\Debug\ApplicationService.exe
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\ApplicationService\bin\Debug\ApplicationService.pdb
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\ApplicationService\obj\Debug\ApplicationService.csprojAssemblyReference.cache
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\ApplicationService\obj\Debug\ApplicationService.exe
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\ApplicationService\obj\Debug\ApplicationService.pdb

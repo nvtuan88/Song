@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="T1904EHelloUWP.Screen.Layout.DemoNavigationView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1904EHelloUWP.Screen.Layout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:Name="NavigationViewControl" >
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:Name="A" >
+                    <StackPanel Orientation="Horizontal">
+                        <SymbolIcon Symbol="Play" Margin="0,0,20,0"/>
+                        <TextBlock>Play the movie</TextBlock>
+                    </StackPanel>
+                </NavigationViewItem >
+                <NavigationViewItem Content="Login" x:Name="B" Tapped="B_Tapped"/>
+                <NavigationViewItem Content="Register" x:Name="C" Tapped="C_Tapped"/>
+                <NavigationViewItem Content="CreatSong" x:Name="D" Tapped="D_Tapped"/>
+                <NavigationViewItem Content="Profile" x:Name="E" Tapped="E_Tapped"/>
+            </NavigationView.MenuItems>
+            <ScrollViewer>
+                <Frame x:Name="ContentFrame"></Frame>
+            </ScrollViewer>
+        </NavigationView>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger
+                        MinWindowWidth="600" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="Left"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>

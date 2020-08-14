@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="T1904EHelloUWP.Demo.DemoNavigationView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1904EHelloUWP.Demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="NavigationViewControl" >
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='3' x:Name="A" >
+                    <StackPanel Orientation="Horizontal">
+                        <SymbolIcon Symbol="Play" Margin="0,0,20,0"/>
+                        <TextBlock>Play the movie</TextBlock>
+                    </StackPanel>
+                </NavigationViewItem >
+                <NavigationViewItem x:ConnectionId='4' Content="Login" x:Name="B"                  />
+                <NavigationViewItem x:ConnectionId='5' Content="Register" x:Name="C"                  />
+                <NavigationViewItem x:ConnectionId='6' Content="CreatSong" x:Name="D"                  />
+                <NavigationViewItem x:ConnectionId='7' Content="Profile" x:Name="E"                  />
+            </NavigationView.MenuItems>
+            <ScrollViewer>
+                <Frame x:ConnectionId='8' x:Name="ContentFrame"></Frame>
+            </ScrollViewer>
+        </NavigationView>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger
+                        MinWindowWidth="600" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="Left"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>
+

@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="T1904EHelloUWP.Demo.DemoSplitView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1904EHelloUWP.Demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <SplitView x:ConnectionId='2' x:Name="MysplitView" IsPaneOpen="True" DisplayMode="CompactInline">
+        <SplitView.Pane>
+            <StackPanel Margin="10" HorizontalAlignment="Left">
+                <SymbolIcon x:ConnectionId='3' Symbol="GlobalNavigationButton"                           />
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <TextBlock>This is Content</TextBlock>
+        </SplitView.Content>
+    </SplitView>
+</Page>
+

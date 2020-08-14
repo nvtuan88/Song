@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="T1904EHelloUWP.CreatSong"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1904EHelloUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Padding="50">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock>Song Form</TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock>Name Song</TextBlock>
+            <TextBox Margin="10" PlaceholderText="Name" HorizontalAlignment="Left" x:Name="name" Width="200"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock>Ca sĩ</TextBlock>
+            <TextBox Margin="10" PlaceholderText="Singer" HorizontalAlignment="Left" x:Name="singer" Width="200"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock>Tác giả</TextBlock>
+            <TextBox Margin="10" PlaceholderText="Author" HorizontalAlignment="Left" x:Name="author" Width="200"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock>Ảnh</TextBlock>
+            <TextBox Margin="10" PlaceholderText="Thumnail" HorizontalAlignment="Left" x:Name="thumbnail" Width="200"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock>Link</TextBlock>
+            <TextBox Margin="10" PlaceholderText="Link" HorizontalAlignment="Left" x:Name="link" Width="200"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Margin="10" Content="Save" Click="Button_Click_Save"/>
+            <Button Margin="10" Content="Reset" Click="Button_Click_Reset"/>
+        </StackPanel>
+    </StackPanel>
+</Page>

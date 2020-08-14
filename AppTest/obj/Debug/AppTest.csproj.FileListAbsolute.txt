@@ -1,0 +1,23 @@
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\AppTest.exe.config
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\AppTest.exe
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\AppTest.pdb
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\MyService.dll
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\MyService.pdb
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\obj\Debug\AppTest.csprojAssemblyReference.cache
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\obj\Debug\AppTest.csproj.CopyComplete
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\obj\Debug\AppTest.exe
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\obj\Debug\AppTest.pdb
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xuan hung\Downloads\T1904EHelloUWP\AppTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\AppTest.exe.config
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\AppTest.exe
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\AppTest.pdb
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\MyService.dll
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\MyService.pdb
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\obj\Debug\AppTest.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\obj\Debug\AppTest.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\obj\Debug\AppTest.csproj.CopyComplete
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\obj\Debug\AppTest.exe
+C:\Users\Admin\source\repos\T1904EHelloUWP\AppTest\obj\Debug\AppTest.pdb

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "et43bs1QUo/q/z5rHr1IVrnvfwrJSIu3YNTwmSIAPRc361pMl/7XOm/jiBFSQ0H/m62KnmbwyOoeit2H047ngA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\T1904EHelloUWP\\MyService\\MyService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.ui.xaml\\2.5.0-prerelease.200708003\\microsoft.ui.xaml.2.5.0-prerelease.200708003.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
